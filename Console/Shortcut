@@ -1,0 +1,29 @@
+const readline = require('readline');
+const { exec } = require('child_process');
+const path = require('path');
+
+// Path to your index.html file
+const filePath = path.join(__dirname, '../Template/index.html');
+
+// Create a readline interface for console input
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+console.log("Type 'code start' to open index.html in your browser.");
+
+rl.on('line', (input) => {
+    if (input.trim() === 'code serve') {
+        console.log('Opening:', filePath);
+        exec(`start "" "${filePath}"`, (err) => {
+            if (err) {
+                console.error('Failed to open index.html:', err.message);
+            } else {
+                console.log('index.html opened in your default browser.');
+            }
+        });
+    } else {
+        console.log("Unknown command. Type 'code serve' to open index.html.");
+    }
+});
