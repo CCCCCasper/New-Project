@@ -19,6 +19,14 @@
     border-radius: 10px;
 }
 
+.home-button {
+
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin-right: 100px;
+}
+
 .active {
 
     height:100%;

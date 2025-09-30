@@ -10,15 +10,8 @@ body {
    background-color: lightblue;
 }
 
-.active {
-   
-   height: 100%;
-   width: 100%;
-   background-color: blue;
-}
-
 .navbar {
-   
+   height: 100px;
    width: 100%;
    display: flex;
    border: none;
