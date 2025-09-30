@@ -1,0 +1,39 @@
+<head>
+
+    <link rel="stylesheet" href="../Style/navbar.css">
+
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="button">
+            <a href="../Template/index.html" class="active">
+                <div class="button-text">Home</div>
+            </a>
+        </div>
+        <div class="button">
+            <a href="../Template/222.html" class="active">
+                <div class="button-text">222</div>
+            </a>
+        </div>
+        <div class="button">
+            <a href="../Template/333.html" class="active">
+                <div class="button-text">333</div>
+            </a>
+        </div>
+        <div class="button">
+            <a href="../Template/444.html" class="active">
+                <div class="button-text">444</div>
+            </a>
+        </div>
+        <div class="button">
+            <a href="../Template/555.html" class="active">
+                <div class="button-text">555</div>
+            </a>
+        </div>
+
+    </div>
+
+</body>
+

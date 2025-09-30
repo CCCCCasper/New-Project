@@ -1,0 +1,40 @@
+.navbar{
+
+    height: 100px;
+    background-color: rgb(40, 40, 40, 0.5);
+    display: flex;
+}
+
+.button {
+
+    display: flex;
+    background-color: black;
+    margin: auto 5px;
+    text-decoration: none;
+    background-color: grey;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.active {
+
+    height:100%;
+    width: 100%;
+}
+
+.button-text {
+
+    margin: auto;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover {
+
+    background-color: rgb(50, 50, 50);
+    cursor: pointer;
+}

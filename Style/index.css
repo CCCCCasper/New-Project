@@ -1,3 +1,25 @@
 body {
-   background-color: green
+   
+   background-color: white;
+}
+
+.test {
+   
+   height: 100px;
+   width: 100px;
+   background-color: lightblue;
+}
+
+.active {
+   
+   height: 100%;
+   width: 100%;
+   background-color: blue;
+}
+
+.navbar {
+   
+   width: 100%;
+   display: flex;
+   border: none;
 }
