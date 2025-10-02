@@ -1,6 +1,7 @@
 body {
-   
-   background-color: white;
+
+   max-width: 100vw;
+   background-color: #203429;
 }
 
 .test {
@@ -11,8 +12,19 @@ body {
 }
 
 .navbar {
-   height: 100px;
+
    width: 100%;
    display: flex;
    border: none;
 }
+
+.content {
+
+   border: 1px solid black;
+   background-color: white;
+   margin-left: 5%;
+   margin-top: 5%;
+   margin-right: 5%;
+   height: 100%;
+   width: 90%;
+} 

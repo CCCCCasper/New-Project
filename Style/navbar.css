@@ -1,20 +1,24 @@
 .navbar{
 
-    height: 100px;
-    background-color: rgb(40, 40, 40, 0.5);
+    background-color: rgba(40, 40, 40, 0.9);
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 99vw;
 }
 
 .button {
 
-    display: flex;
-    background-color: black;
-    margin: auto 5px;
-    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     background-color: grey;
+    margin: 0px 10px;
+    text-decoration: none;
     color: white;
-    height: 50px;
-    width: 100px;
+    height: 40px;
+    min-width: 80px;
+    padding: 0 12px;
     border: 2px solid black;
     border-radius: 10px;
 }
@@ -22,9 +26,9 @@
 .home-button {
 
     display: flex;
-    height: 100px;
-    width: 100px;
-    margin-right: 100px;
+    height: 80px;
+    width: auto;
+    border: 2px solid  rgba(40, 40, 40, 0.9);
 }
 
 .active {
@@ -36,7 +40,7 @@
 .button-text {
 
     margin: auto;
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
     color: white;
 }
@@ -45,4 +49,11 @@
 
     background-color: rgb(50, 50, 50);
     cursor: pointer;
+}
+
+.nav-links {
+
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
